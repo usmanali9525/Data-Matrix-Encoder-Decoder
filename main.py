@@ -1,6 +1,7 @@
 from pylibdmtx.pylibdmtx import encode, decode
 from PIL import Image
 import cv2
+import pandas as pd
 
 data = '010896110309001021bLvYaQkH7ZHxI91UZF092QWtVZRxqLgVm5yQbXGVUgDvPkcYYWOSkGjrOf0NB0Xc='
 data = data.replace('', '')
